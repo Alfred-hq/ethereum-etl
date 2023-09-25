@@ -31,7 +31,7 @@ from ethereumetl.utils import chunk_string, hex_to_dec, to_normalized_address
 TOPICS_TO_LISTEN = ['0x7fb1c74d1ea6aa1c9c585e17ce8274c8ff98745e85e7459b73f87d784494f58e', # alfred_follow_event
                     '0x9a382661d6573da86db000471303be6f0b2b1bb66089b08e3c16a85d7b6e94f8', # alfred_unfollow_event
                     '0x2e1f85a64a2f22cf2f0c42584e7c919ed4abe8d53675cff0f62bf1e95a1c676f',
-                    '0x137a44067c8961cd7e1d876f4754a5a3a75989b4552f1843fc69c3b372def160
+                    '0x137a44067c8961cd7e1d876f4754a5a3a75989b4552f1843fc69c3b372def160'
 ]
 logger = logging.getLogger(__name__)
 
